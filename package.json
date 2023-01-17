@@ -1,0 +1,30 @@
+{
+  "name": "jaykst-github-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayKst/JayKst.github.io.git"
+  },
+  "author": "jkyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayKst/JayKst.github.io/issues"
+  },
+  "homepage": "https://github.com/JayKst/JayKst.github.io#readme",
+  "dependencies": {
+    "@types/jest": "29.2.5",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "jest": "29.3.1",
+    "node": "19.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.4"
+  }
+}
