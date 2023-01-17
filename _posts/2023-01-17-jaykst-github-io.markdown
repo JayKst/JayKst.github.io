@@ -15,12 +15,12 @@ categories: jekyll update
 2. window ruby 설치
     1. ruby 3.2.0
     
-    ![Untitled](./public/images/Untitled.png)
+    ![Untitled](/public/images/Untitled.png)
     
 3. git bash 실행 후 로컬 jekyll 설치
     1. `gem install jekyll bundler`
     
-    ![Untitled](./public/images/Untitled%201.png)
+    ![Untitled](/public/images/Untitled%201.png)
     
 4. To create a new Jekyll site, use the `jekyll new`
  command: (기존 프로젝트구성으로 --force 옵션 추가)
@@ -33,19 +33,19 @@ categories: jekyll update
 5. Getfile 수정
     1. gem jekyll 시작부분 주석
         
-        ![Untitled](./public/images/Untitled%202.png)
+        ![Untitled](/public/images/Untitled%202.png)
         
     2. get github-page 부분 주석 해제
         1. github-page 버전에 맞도록 설정 여기서 확인가능 [https://pages.github.com/versions/](https://pages.github.com/versions/)
         
-        ![Untitled](./public/images/Untitled%203.png)
+        ![Untitled](/public/images/Untitled%203.png)
         
-        ![Untitled](./public/images/Untitled%204.png)
+        ![Untitled](/public/images/Untitled%204.png)
         
 6. bundle install 실행
     1. `bundle install`
     
-    ![Untitled](./public/images/Untitled%205.png)
+    ![Untitled](/public/images/Untitled%205.png)
     
 
 내용 변경을 통해 적용 완료. 보수공사 필요
@@ -70,7 +70,7 @@ categories: jekyll update
 2. 압축 해제후 root 폴더 아래에 붙혀넣기(중복은 덮어써버림)
 3. 깃 푸시
 
-![Untitled](./public/images/Untitled%206.png)
+![Untitled](/public/images/Untitled%206.png)
 
 ---
 
