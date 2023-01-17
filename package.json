@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "my-app/node_modules/.bin/next dev",
+    "build": "my-app/node_modules/.bin/next build",
+    "start": "my-app/node_modules/.bin/next start",
+    "lint": "my-app/node_modules/.bin/next lint"
   },
   "repository": {
     "type": "git",
