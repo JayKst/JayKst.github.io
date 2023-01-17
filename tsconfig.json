@@ -4,19 +4,24 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": false, // 파일명에 대소문자 구분하지 않아도 되는 기능 사용 여부 // 직역: 파일 이름에 일관된 casing 강제 적용
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react",
-    "rootDirs": ["src"],
-    "baseUrl": "src",
-    "experimentalDecorators": true // ES Decorator에 대한 실험적 기능 사용 여부
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./my-app",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
-  "include": ["src"]
+  "include": [
+    "./next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": [
+    "my-app/node_modules"
+  ]
 }

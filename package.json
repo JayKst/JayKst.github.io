@@ -1,28 +1,29 @@
 {
   "name": "jaykst-github-io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.tsx",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "my-app/node_modules/.bin/next dev",
+    "build": "my-app/node_modules/.bin/next build",
+    "start": "my-app/node_modules/.bin/next start",
+    "lint": "my-app/node_modules/.bin/next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JayKst/JayKst.github.io.git"
   },
-  "author": "jkyang",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/JayKst/JayKst.github.io/issues"
   },
   "homepage": "https://github.com/JayKst/JayKst.github.io#readme",
   "dependencies": {
-    "@types/jest": "29.2.5",
+    "@next/font": "13.1.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
-    "jest": "29.3.1",
-    "node": "19.4.0",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.2",
+    "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
